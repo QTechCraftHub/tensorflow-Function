@@ -23,6 +23,7 @@ conv2d(
 
 返回值：
 + A Tensor. Has the same type as input. A 4-D tensor. The dimension order is determined by the value of data_format, see below for details.
+<<<<<<< HEAD
 
 补充：
 + In detail, with the default NHWC format:
@@ -32,3 +33,5 @@ conv2d(
 </code></pre>
 + trips:
     + Must have strides[0] = strides[3] = 1. For the most common case of the same horizontal and vertices strides, strides = [1, stride, stride, 1].
+=======
+>>>>>>> 4ee944e5707992dfa696c2add39608c14734a3ba
